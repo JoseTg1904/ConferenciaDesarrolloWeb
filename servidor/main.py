@@ -98,5 +98,8 @@ if __name__ == "__main__":
 
         El modo debug es para poder aplicar cambios en el servidor y verlos refleados al instante, 
         tambien podemos ver ciertos indicadores de las peticiones que entran a nuestro servidor. 
+
+        El host 0.0.0.0 realiza la conversion internamente para trabajar con la ip que tenga nuestra
+        computadora
     '''
-    app.run(port = 3000, debug = True)
+    app.run(port = 3000, debug = True, host = "0.0.0.0")
