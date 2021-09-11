@@ -203,6 +203,8 @@ En este manual explicaremos como subir un sitio web estatico hacia el Amazon Sim
 
 4.8 Ahora nos dirigiremos al apartado de **Objetos** (Imagen 4.11) y buscaremos la opción de cargar (Imagen 4.12), cargaremos los archivos necesarios en **Agregar Archivos** (Imagen 4.13) y los cargaremos (Imagen 4.14).
 
+- ***Nota:*** Antes de subir los archivos debe de haberse cambiado la dirección del **localhost** por la respectiva **ip externa** o **ip publica** de la maquina virtual
+
 <div align="center">
 
 ![Imagen 4.11. Objetos.](./imagenes/411.png)
